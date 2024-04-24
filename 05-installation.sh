@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-if[ $USERID -ne 0 ]
+if [ $USERID -ne 0 ]
 then
 
     echo "this will run only with root access only"
